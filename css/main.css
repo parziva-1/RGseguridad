@@ -75,12 +75,8 @@ body,
 }
 
 #fadecss,#navbar1 {
-  background: rgba(169,3,41,1);
-  background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 35%, rgba(118,1,28,1) 74%, rgba(109,0,25,1) 89%);
-  /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(35%, rgba(143,2,34,1)), color-stop(74%, rgba(118,1,28,1)), color-stop(89%, rgba(109,0,25,1)));*/
-  background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 35%, rgba(118,1,28,1) 74%, rgba(109,0,25,1) 89%);
-  background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 35%, rgba(118,1,28,1) 74%, rgba(109,0,25,1) 89%);
-  background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 35%, rgba(118,1,28,1) 74%, rgba(109,0,25,1) 89%);
-  background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 35%, rgba(118,1,28,1) 74%, rgba(109,0,25,1) 89%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+background: #e55039;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #c31432, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c31432, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
